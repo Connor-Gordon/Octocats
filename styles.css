@@ -10,8 +10,6 @@ li {
 	list-style: none;
 }
 
-
-
 .octodex {
 	display: flex;
 	flex-direction: row;
@@ -27,7 +25,6 @@ li {
 
 .image-footer {
 	display: flex;
-	flex-direction: row;
 	justify-content: space-between;
 	font-weight: bold;
 	border-bottom: solid;
@@ -57,7 +54,6 @@ li {
 	color: rgb(119, 119, 119);
 	line-height: 50px;
 }
-
 .image-caption>a {
 	margin: 0px 5px;
 }
@@ -73,8 +69,8 @@ li {
 
 .octocat>a>img {
 	border-color: rgb(202, 202, 202);
-	border-width: 1px;
-	border: solid;
+	border-width: thin;
+	border-style: solid;
 	border-radius: 10px;
 	margin: 10px;
 }
